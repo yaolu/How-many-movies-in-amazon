@@ -2,7 +2,9 @@
 Data warehouse course project2
 
 ##Introduction
-The raw data are from snap.stanford.edu ,It's a comment dataset in amazon video section. The total size is approximately 9GB with 250,000 product ids. However, we want to know the true number of the product as different id may point to the same product.
+The raw data are from http://snap.stanford.edu/data/web-Movies.html
+
+It's a comment dataset in amazon video section. The total size is approximately 9GB with 250,000 product ids. However, we want to know the true number of the product as different id may point to the same product.
 
 ##Details
 - get_id.py : Clean the raw dataset to get distincted id and generate a list with product id
